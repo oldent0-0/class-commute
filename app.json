@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Class Commute",
+    "slug": "class-commute",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow Class Commute to use your location for local weather and to estimate routes to school using OpenStreetMap-based services."
+        }
+      ],
+      "@react-native-community/datetimepicker"
+    ],
+    "splash": {
+      "backgroundColor": "#0A0A0B"
+    },
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0A0B",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
